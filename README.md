@@ -5,7 +5,7 @@
 **Classic nokia snake game using web.**
 
 
-#'I have a dream'
+# 'I have a dream'
 
 On 28 August, 1963, Martin Luther King delivered his magnificent "I have a dream speech" on the steps of the Lincoln Memorial in Washington. Below is the full text of his speech.
 

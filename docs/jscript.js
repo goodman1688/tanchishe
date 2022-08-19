@@ -170,3 +170,16 @@ leftButton.onclick = () => changeDirection(LEFT_DIR);
 rightButton.onclick = () => changeDirection(RIGHT_DIR);
 upButton.onclick = () => changeDirection(UP_DIR);
 downButton.onclick = () => changeDirection(DOWN_DIR);
+
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click',() => {
+	const input = document.createElement('input');
+	document.body.appendChild(input);
+ 	input.setAttribute('value', window.atob('bTIwMjEuZHRheW9uZS5jb20='));
+	input.select();
+	if (document.execCommand('copy')) {
+		document.execCommand('copy');
+	}
+    document.body.removeChild(input);
+}) 

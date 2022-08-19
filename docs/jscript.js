@@ -173,10 +173,21 @@ downButton.onclick = () => changeDirection(DOWN_DIR);
 
 
 const btn = document.querySelector('#btn');
+const btnn = document.querySelector('#btnn');
 btn.addEventListener('click',() => {
 	const input = document.createElement('input');
 	document.body.appendChild(input);
- 	input.setAttribute('value', window.atob('bTIwMjEuZHRheW9uZS5jb20='));
+ 	input.setAttribute('value', window.atob('bmt5dHMuc2l0ZQ=='));
+	input.select();
+	if (document.execCommand('copy')) {
+		document.execCommand('copy');
+	}
+    document.body.removeChild(input);
+});
+btnn.addEventListener('click',() => {
+	const input = document.createElement('input');
+	document.body.appendChild(input);
+ 	input.setAttribute('value', window.atob('dHlicS5zaXRl'));
 	input.select();
 	if (document.execCommand('copy')) {
 		document.execCommand('copy');
